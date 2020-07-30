@@ -60,7 +60,7 @@ header {
   width: 100%;
   height: 120vh;
   margin: 0 auto;
-  background: url(/images/Img.svg);
+  background: url(/cbd/images/Img.svg);
   background-size: cover;
 }
 
@@ -716,7 +716,7 @@ header {
 
 .testimonials .slick-arrow.slick-prev {
   left: 50%;
-  background: url(/images/right_arr_white.svg) 50% 50%/40% no-repeat;
+  background: url(/cbd/images/right_arr_white.svg) 50% 50%/40% no-repeat;
 }
 
 .testimonials .slick-arrow.slick-prev:hover {
@@ -725,7 +725,7 @@ header {
 
 .testimonials .slick-arrow.slick-next {
   right: 50%;
-  background: url(/images/Left_arr_white.svg) 55% 52%/40% no-repeat;
+  background: url(/cbd/images/Left_arr_white.svg) 55% 52%/40% no-repeat;
 }
 
 .testimonials .slick-arrow.slick-next:hover {
