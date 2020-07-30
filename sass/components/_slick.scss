@@ -68,7 +68,7 @@
 
 .slider_container .slick-arrow.slick-prev{
     left: 51.5%;
-    background: url(/images/Right.svg) 0 0 / 100% no-repeat;
+    background: url(/cbd/images/Right.svg) 0 0 / 100% no-repeat;
     @extend %transition;
     
     &:hover {
@@ -78,7 +78,7 @@
 
 .slider_container .slick-arrow.slick-next {
     right: 52%;
-      background: url(/images/Left.svg) 0 0 / 100% no-repeat;
+      background: url(/cbd/images/Left.svg) 0 0 / 100% no-repeat;
     @extend %transition;
     
     &:hover {
