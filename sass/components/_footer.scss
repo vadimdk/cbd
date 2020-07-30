@@ -1,0 +1,165 @@
+@import "./../abstract/constants";
+
+.footer__container {
+    width: 80%;
+    height: 46rem;
+    margin: 10rem  auto 0.1rem;
+    @include flex(space-between, center, column);
+  
+}
+
+.cbd_title {
+    width: 98%;
+    height: 5rem;
+    @include flex();
+}
+
+.title_logo {
+    line-height: 5.5rem;
+    color: #6e774a;
+    font-weight: 400;
+    font-family: "Oswald";
+    font-size: 6rem;
+}
+
+.title_line {
+    width: 37rem;
+    height: 2px;
+    background-color: #6e774a;
+}
+
+.info_block {
+    width: 70%;
+    height: 11rem;
+    padding-left: 5rem;
+    @include flex();
+  
+}
+
+.info_item {
+    font-size: 1.4rem;
+    letter-spacing: 0.4rem;
+    line-height: 4rem;
+    color: #6e774a;
+    font-weight: 300;
+    font-family: "Oswald";
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+.social_block {
+    width: 19rem;
+    height: 13rem;
+    @include flex(space-between, center, column);
+    padding-bottom: 3.4rem;
+    
+}
+
+.social_icons {
+    width: 18.7rem;
+    height: 3.2rem;
+    @include flex();
+}
+
+.icon {
+width: 27px;
+height: 19px;
+border-radius: 4px;
+fill: #6d7749;
+
+
+  &:hover {
+     fill: rgb(67, 73, 45); 
+  }
+}
+
+.green {
+    width: 5.5rem;
+    background-color: #6d7749; 
+    transform: rotate(90deg); 
+}
+
+.subscribe_block {
+    width: 38rem;
+    height: 20rem;
+    @include flex(space-between, center, column);
+}
+
+.subscribe_title {
+    width: 26rem;
+    margin: 0;
+    height: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    color: #1c1c1b;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.copyright_block {
+    width: 37rem;
+    height: 5rem;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: #6e774a;
+    font-weight: 300;
+    font-family: "Oswald";
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+form {
+    width: 37.1rem;
+    height: 6.1rem;
+    text-align: center;
+    padding: 0.2rem 0.1rem;
+     border: 2px solid #ced6af;
+
+    input {
+        width: 28rem;
+        height: 4rem;
+        padding-left: 3.5rem;
+        padding-bottom: 0.2rem;
+        border: none;
+        outline: none;
+      
+    }
+
+    button {
+        width: 8rem;
+        height: 5rem;
+        padding-left: 1rem;
+        border: none;
+        border-left: 2px solid #ced6af;
+        background-color: #fff;
+        font-size: 3.6rem;
+        margin-top: 0.1rem;
+        text-align: center;
+        color: #6d7749;
+        cursor: pointer;
+        padding: 0;
+
+        img {
+            width: 2.6rem;
+            height: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+    }
+}
+
+::-webkit-input-placeholder {color:#6e774a; font-size: 1.6rem; font-weight: 300; font-family: "Oswald"; letter-spacing: 4px;}
+::-moz-placeholder          {color:#6e774a; font-size: 1.6rem; font-weight: 300; font-family: "Oswald"; letter-spacing: 4px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#6e774a; font-size: 1.6rem; font-weight: 300; font-family: "Oswald"; letter-spacing: 4px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#6e774a; font-size: 1.6rem; font-weight: 300; font-family: "Oswald"; letter-spacing: 4px;}
+
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}

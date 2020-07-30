@@ -1,0 +1,87 @@
+@import "./../abstract/constants";
+
+.faq {
+    padding-bottom: 6rem;
+   
+}
+
+ .faq_container {
+     width: 60rem;
+     margin: 6rem auto;
+     padding-top: 6rem;
+     padding-bottom: 3rem;
+    
+ }
+
+ .faq_title {
+      width: 97%;
+     height: 7.7rem;
+     font-size: 3rem;
+     letter-spacing: 0.6rem;
+     color: #1c1c1b;
+     font-weight: 400;
+     font-family: "Oswald";
+     text-align: center;
+     margin: 2px auto;
+     text-transform: uppercase;
+    
+ }
+
+ .item {
+     width: 57rem;
+     border-top: 2px solid #eaedde;
+     padding: 3rem 0;
+
+     .item_question {
+         width: 57rem;
+         height: 16.7rem;
+         margin: 3rem 1rem 3rem 0rem;
+
+         font-size: 1.8rem;
+         letter-spacing: 0.5rem;
+         color: #6e774a;
+         font-weight: 300;
+         font-family: "Oswald";
+         
+            img {
+                margin-right: 2rem;
+                width: 2rem;
+                height: 2rem;
+            }
+
+        }
+
+         
+            // span>img{
+            //     width: 2rem;
+            //     height: 2rem;
+            // }
+        
+ }
+
+ .item_description {
+     width: 51.8rem;
+     height: 13rem;
+     font-size: 1.8rem;
+     letter-spacing: 1px;
+     line-height: 4rem;
+     color: #000000;
+     font-weight: 300;
+     font-family: "Oswald";
+     margin-left: 5.5rem;
+     margin-top: 4rem;
+     display: none;
+
+     &.open {
+
+         display: block;
+     }
+     
+ }
+
+ 
+
+ .questions__list:last-child {
+     width: 57rem;
+     border-bottom: 2px solid #eaedde;
+ }

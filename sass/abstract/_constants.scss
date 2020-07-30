@@ -1,0 +1,13 @@
+// $stars_color: #FFBC6B;
+
+
+
+
+
+
+@mixin flex ($justfy: space-between, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justfy;
+    align-items: $align;
+    flex-direction: $direction;
+}

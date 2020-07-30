@@ -1,0 +1,22 @@
+// base
+@import "base/base";
+
+// abstract
+@import "abstract/constants";
+@import "abstract/placeholders";
+
+// components
+@import "components/header";
+@import "components/about";
+
+@import "components/slick";
+@import "components/products";
+@import "components/faq";
+@import "components/testimonials";
+@import "components/footer";
+// @import "components/slick";
+
+@import "components/media";
+
+// layouts
+@import "layouts/layout";

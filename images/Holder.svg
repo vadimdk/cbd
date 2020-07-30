@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1848 2091" width="1848" height="2091">
+	<defs>
+		<image width="690" height="200" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArIAAADIAgMAAABpMeqdAAAAAXNSR0IB2cksfwAAAAxQTFRFztavztavztav////CrCRhgAAAAR0Uk5T/wEAAGxUClwAAADxSURBVHic7d3BCYNQAAXBX+K/2ESqSR3aY8wlxwiCLEEyU8BjO3hjAAAcW25hfmofa2vb99f1lafaL9R21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR21HbUdtR2/rn211+258wBAHDsDZxQQ8t5WAoVAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="About">
+		<g id="Trust Icons">
+			<use id="Holder" href="#img1" x="613" y="888" />
+		</g>
+	</g>
+</svg>

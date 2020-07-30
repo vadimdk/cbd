@@ -1,0 +1,329 @@
+
+@media screen and (max-width: 1025px) { 
+    html {
+        font-size: 9px;
+    }
+
+    .img_holder {
+        width: 55rem;
+    }
+
+    .comment_block {
+        width: 98%;
+        height: 24.5rem;
+    }
+
+    .content_wrapper {
+        width: 60%;
+        height: 46.7rem;
+        position: absolute;
+        top: 30.5%;
+    }
+
+    .testimonials .slick-arrow {
+        position: absolute;
+        top: 77%;
+    }
+
+    .text_potion.reverced {
+        padding-right: 2rem;
+    }
+
+    .transparent_layer {
+        height: 70.7rem;
+    }
+
+ }
+
+
+@media screen and (min-width: 1470px) {
+     html {
+        font-size: 10px;
+    }
+
+    .cbd__potion {
+    position: relative;
+    top: -16%;
+    left: -4%;
+    }
+
+    .text_potion.reverced {
+       margin-bottom: -7rem;
+    }
+
+    .transparent_layer {
+      height: 80.7rem;
+    }
+
+    .content_wrapper {
+        height: 50.7rem;
+    }
+
+    .testimonials .slick-arrow {
+        position: absolute;
+        top: 88%;
+    }
+}
+
+@media screen and (max-width: 770px) { 
+    html {
+        font-size: 8px;
+    }
+
+    .tabs_crossline {
+        top: 5%;
+    }
+
+    .tabs__header {
+         width: 95%;
+    }
+
+    .tab {
+    
+         font-size: 2.5rem;
+    }
+
+    .img_holder {
+       width: 41rem;
+    }
+
+    .star_rating {
+        width: 16rem;
+    }
+
+    .slider_container .slick-slide {
+        margin-left: 1rem;
+        margin-right: 2rem;
+   }
+
+   .comment_block {
+    
+    height: 33.5rem;
+   }
+
+   .content_wrapper {
+    
+    top: 24.5%;
+   }
+
+   .testimonials .slick-arrow {
+    position: absolute;
+    top: 70%;
+ }
+
+ .transparent_layer {
+    height: 65.9rem;
+}
+
+.text_potion.reverced {
+    padding-right: 8rem;
+}
+
+.title_line {
+    width: 30rem;
+}
+
+.info_block {
+    width: 82%;
+}
+
+
+
+ }
+
+ @media screen and (max-width: 427px) { 
+    html {
+        font-size: 5px;
+    }
+
+    .search_icon {
+        display: none;
+    }
+
+    .nav {
+       position: absolute;
+       top: 16%;
+        width: 85%;
+        margin-left: 6rem;
+    }
+
+    .nav .nav_items {
+   
+       font-size: 2.6rem;
+    }
+
+    .login__block_item {
+    
+         font-size: 2.6rem;
+    }
+
+    .cbd__potion {
+    
+      top: -10%;
+    
+    }
+
+    .intro {
+        height: 55rem;
+        align-items: center;
+    }
+
+   .link_products {
+     width: 27rem;
+    }
+
+    .intro p {
+    font-size: 2.4rem;
+    }
+
+    .btn_start {
+      width: 35rem;
+      height: 9rem;
+    }
+
+    .btn_start .btn_text {
+    
+    font-size: 3rem;
+  }
+
+    .intro h5 {
+      text-align: center;
+  }
+
+  .wrapper {
+       padding-bottom: 21rem;
+   }
+
+   .description_container.active{
+       @include flex(space-between, center, column)
+   }
+
+   .description {
+    width: 98%;
+   }
+
+   .left__side_block {
+    width: 95%;
+   }
+
+   .description p {
+    
+    font-size: 3rem;
+  }
+
+  .tabs__header {
+    width: 107%;
+  }
+
+  .tab {
+    font-size: 3rem;
+  }
+
+  .right__side_block {
+    width: 108%;
+    flex-direction: row;
+  }
+
+  .img_holder {
+    width: 34rem;
+  }
+
+.about__tabs {
+    height: 99rem;
+  }
+
+  .item {
+    width: 64rem;
+  }
+
+  .item .item_question {
+    font-size: 2.4rem;
+  }
+
+  .item_description {
+    width: 53.8rem;
+    height: 13rem;
+    font-size: 2.8rem;
+  }
+
+  .transparent_layer {
+    height: 62.9rem;
+  }
+
+  .text_potion.reverced {
+      display: none;
+  }
+
+  .content_wrapper {
+    top: 20.5%;
+  }
+
+  .testimonials .slick-arrow {
+    position: absolute;
+    top: 67%;
+  }
+
+  .cbd_title {
+    width: 113%;
+  }
+
+  .info_block {
+    width: 99%;
+ }
+
+.info_item {
+    font-size: 2rem;
+ }
+
+ .subscribe_title {
+    width: 45rem;
+    font-size: 2.8rem;
+ }
+
+ form {
+    width: 56.1rem;
+    height: 7.1rem;
+ }
+
+ form input {
+    width: 40rem;
+    height: 4rem;
+    padding-left: 0.5rem;
+ }
+
+ ::-webkit-input-placeholder {font-size: 2.5rem;}
+ ::-moz-placeholder          {font-size: 2.5rem;}
+ :-moz-placeholder           {font-size: 2.5rem;}
+ :-ms-input-placeholder      {font-size: 2.5rem;}
+
+    .copyright_block {
+    
+         font-size: 2.1rem;
+    }
+
+}
+
+ @media screen and (max-width: 377px) { 
+    html {
+        font-size: 4px;
+    }
+
+    .subscribe_title {
+      width: 48rem;
+    }
+
+    .item {
+    width: 75rem;
+  }
+
+  .item .item_question {
+    font-size: 3rem;
+  }
+
+  .item_description {
+    width: 53.8rem;
+    height: 13rem;
+    font-size: 2.8rem;
+  }
+
+ }

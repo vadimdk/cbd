@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 19" width="27" height="19">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #6d7749 } 
+	</style>
+	<g id="Footer">
+		<g id="Social Media ">
+			<path id="YouTube" class="shp0" d="M27 4.06C27 1.82 25.2 0 22.97 0L4.04 0C1.81 0 0 1.82 0 4.06L0 14.94C0 17.18 1.81 19 4.04 19L22.97 19C25.2 19 27 17.18 27 14.94L27 4.06ZM10.8 14.09L10.8 3.87L18.52 8.98L10.8 14.09Z" />
+		</g>
+	</g>
+</svg>
