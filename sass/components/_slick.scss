@@ -86,30 +86,21 @@
         }
 }
 
-.slider_container  .slick-slide {
-//    margin-left: 1.5rem;
-//    margin-right: 1.5rem;
-//    width: 40rem;
 
-}
 
 .slider_container  .slick-slide.slick-active  {
    margin-left: 1.5rem;
    margin-right: 1.5rem;
-//    width: 40rem;
+
 
 }
 
-.slider_container  .slick-slide.slick-cloned  {
-//    margin-left: 1rem;
-//    margin-right: 1rem;
 
-}
 
 
 .testimonials {
     position: relative;
-    // z-index: 10;
+    
 }
 
 
@@ -135,7 +126,7 @@ border: none;
 
 .testimonials .slick-arrow.slick-prev {
     left: 50%;
-    background: url(/images/right_arr_white.svg) 50% 50% / 40% no-repeat;
+    background: url(/cbd/images/right_arr_white.svg) 50% 50% / 40% no-repeat;
     @extend %transition;
     
     &:hover  {
@@ -145,7 +136,7 @@ border: none;
 
 .testimonials .slick-arrow.slick-next {
     right: 50%;
-    background: url(/images/Left_arr_white.svg) 55% 52% / 40% no-repeat;
+    background: url(/cbd/images/Left_arr_white.svg) 55% 52% / 40% no-repeat;
     @extend %transition;
     
     &:hover  {
