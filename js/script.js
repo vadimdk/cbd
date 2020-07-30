@@ -1,7 +1,5 @@
 $(document).ready(() => {
-  console.log("HELLO");
   
-
   
 //  Slider products
   $('.slider_container').slick({
@@ -46,7 +44,7 @@ $(document).ready(() => {
 
   $('.testimonials').slick({
     arrows: true,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3500,
     slidesToShow: 1,
     slidesToScroll: 1,
